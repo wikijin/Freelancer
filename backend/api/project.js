@@ -1,5 +1,5 @@
-var dbUtil = require('../utils/dbutil');
-var authUtil = require('../utils/authUtil');
+var dbUtil = require('../Ath/dbutil');
+var authUtil = require('../Ath/authUtil');
 var project_codes = require('../codes/project_codes');
 
 const TABLE_PROJCETS = ' ' + dbUtil.getDBName() + ".projects" + ' ';
